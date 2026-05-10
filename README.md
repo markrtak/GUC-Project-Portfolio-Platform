@@ -43,8 +43,3 @@ This repo hosts the **GUC Project Portfolio Platform** source and documentation.
 
 - **Remote:** [github.com/markrtak/GUC-Project-Portfolio-Platform](https://github.com/markrtak/GUC-Project-Portfolio-Platform)
 
----
-
-## License
-
-Specify your course or team license here (e.g. MIT, or “Educational use — GUC Software Engineering”).
