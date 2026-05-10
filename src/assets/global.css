@@ -1,0 +1,97 @@
+/*
+ * global.css — Application-wide base styles
+ *
+ * PURPOSE:
+ *   This file is the single CSS entry point imported by main.jsx.
+ *   It wires up Tailwind, imports the colour variables, and adds a thin
+ *   layer of global resets and utility classes that Tailwind does not
+ *   provide out of the box.
+ *
+ * TAILWIND DIRECTIVES:
+ *   @tailwind base        — Preflight reset (normalises browser defaults).
+ *   @tailwind components  — Component layer (classes added by plugins).
+ *   @tailwind utilities   — All utility classes (bg-*, text-*, flex, etc.).
+ *
+ * CUSTOM BASE LAYER:
+ *   @layer base { ... }  — Anything inside this block is injected into
+ *   Tailwind's "base" layer so it participates correctly in the cascade
+ *   (it runs after Preflight but before components/utilities).
+ *
+ * SCROLLBAR STYLING:
+ *   Webkit scrollbar pseudo-elements style the scrollbar in Chrome/Edge/Safari.
+ *   Firefox uses the scrollbar-width / scrollbar-color shorthand.
+ */
+
+@import './colors.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Custom Base Layer ──────────────────────────────────────────────────── */
+@layer base {
+  html {
+    font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  /* Body uses the CORE BASE charcoal (#121212) as the foundation and the
+     "Typography" off-white (#F5F5F5) for legible default copy. */
+  body {
+    @apply bg-surface-900 antialiased;
+    color: var(--color-text-primary);
+    min-height: 100vh;
+  }
+
+  /* Focus-visible ring uses the PRIMARY ACTION yellow */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-brand-500 ring-offset-2 ring-offset-surface-900;
+  }
+
+  /* Thin, styled scrollbars */
+  ::-webkit-scrollbar          { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track    { background: transparent; }
+  ::-webkit-scrollbar-thumb    { @apply bg-surface-600 rounded-full; }
+  ::-webkit-scrollbar-thumb:hover { @apply bg-surface-500; }
+
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #3a3a3a transparent;
+  }
+
+  /* Selection highlight uses the brand yellow on charcoal */
+  ::selection {
+    background-color: rgba(255, 204, 0, 0.35);
+    color: #f5f5f5;
+  }
+
+  /* Smooth transitions for all interactive elements */
+  a, button { @apply transition-colors duration-200; }
+}
+
+/* ── Custom Component Layer ─────────────────────────────────────────────── */
+@layer components {
+  /* Glass-morphism card effect used throughout the app */
+  .card {
+    @apply bg-surface-800 border border-surface-700 rounded-xl shadow-card;
+  }
+
+  /* Reusable gradient text effect for headings */
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand-400 to-accent-400 bg-clip-text text-transparent;
+  }
+
+  /* Subtle section divider */
+  .divider {
+    @apply border-t border-surface-700;
+  }
+
+  /* Input base style referenced by Input.jsx */
+  .input-base {
+    @apply w-full bg-surface-700 border border-surface-600 rounded-lg px-3 py-2.5
+           text-slate-100 placeholder-slate-500
+           focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent
+           transition-all duration-200;
+  }
+}

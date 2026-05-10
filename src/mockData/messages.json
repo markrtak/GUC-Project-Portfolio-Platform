@@ -1,0 +1,50 @@
+[
+  {
+    "id": "msg-1",
+    "fromId": "user-1",
+    "toId": "user-7",
+    "content": "Good morning Dr. Mona, I just pushed the new evaluation dashboard for review. Could you take a look when you have a moment?",
+    "createdAt": "2025-04-29T09:15:00Z",
+    "read": true
+  },
+  {
+    "id": "msg-2",
+    "fromId": "user-7",
+    "toId": "user-1",
+    "content": "Got it Youssef. I'll review it later today and leave comments on the feedback section. Make sure you also include the BLEU score chart we discussed.",
+    "createdAt": "2025-04-29T11:32:00Z",
+    "read": true
+  },
+  {
+    "id": "msg-3",
+    "fromId": "user-7",
+    "toId": "user-1",
+    "content": "Quick reminder — the thesis draft v3 is due next Friday. Please prioritise the related work section.",
+    "createdAt": "2026-04-30T08:00:00Z",
+    "read": false
+  },
+  {
+    "id": "msg-4",
+    "fromId": "user-2",
+    "toId": "user-8",
+    "content": "Hi Dr. Amr, thanks for the feedback on EcoTrack. I'll work on the onboarding flow this week.",
+    "createdAt": "2025-04-06T14:20:00Z",
+    "read": true
+  },
+  {
+    "id": "msg-5",
+    "fromId": "user-9",
+    "toId": "user-1",
+    "content": "Hi Youssef — really impressed by your AI Code Review project. Would you be open to chatting about an internship opportunity at Valeo?",
+    "createdAt": "2026-04-28T15:00:00Z",
+    "read": false
+  },
+  {
+    "id": "msg-6",
+    "fromId": "user-7",
+    "toId": "user-8",
+    "content": "Amr, do you have a moment to discuss the joint MET / CSEN curriculum review for next semester?",
+    "createdAt": "2026-04-29T09:00:00Z",
+    "read": false
+  }
+]

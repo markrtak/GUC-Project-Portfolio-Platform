@@ -43,3 +43,16 @@ This repo hosts the **GUC Project Portfolio Platform** source and documentation.
 
 - **Remote:** [github.com/markrtak/GUC-Project-Portfolio-Platform](https://github.com/markrtak/GUC-Project-Portfolio-Platform)
 
+---
+
+## Getting started (frontend)
+
+From the repository root:
+
+```bash
+npm install
+npm run dev
+```
+
+Then open the URL shown in the terminal (default Vite port is `5173`). Build for production with `npm run build`.
+

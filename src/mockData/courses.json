@@ -1,0 +1,90 @@
+[
+  {
+    "id": "course-1",
+    "code": "CSEN 401",
+    "name": "Computer Programming Lab",
+    "department": "Computer Science & Engineering",
+    "semester": "Fall",
+    "year": 2,
+    "description": "Hands-on programming course covering data structures, algorithms, and software design patterns in Java.",
+    "instructorIds": ["user-7"],
+    "createdAt": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": "course-2",
+    "code": "CSEN 703",
+    "name": "Analysis & Design of Algorithms",
+    "department": "Computer Science & Engineering",
+    "semester": "Spring",
+    "year": 3,
+    "description": "Theoretical and practical study of algorithm design paradigms: divide-and-conquer, dynamic programming, greedy, and graph algorithms.",
+    "instructorIds": ["user-7"],
+    "createdAt": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": "course-3",
+    "code": "CSEN 702",
+    "name": "Microprocessors & Computer Architecture",
+    "department": "Computer Science & Engineering",
+    "semester": "Spring",
+    "year": 3,
+    "description": "Architecture of modern microprocessors, memory hierarchy, pipelining, and assembly language programming.",
+    "instructorIds": [],
+    "createdAt": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": "course-4",
+    "code": "DMET 501",
+    "name": "Media Technology Studio",
+    "department": "Media Engineering & Technology",
+    "semester": "Fall",
+    "year": 3,
+    "description": "Practical studio course covering digital media production, interactive design, and multimedia systems.",
+    "instructorIds": ["user-8"],
+    "createdAt": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": "course-5",
+    "code": "DMET 602",
+    "name": "Human-Computer Interaction",
+    "department": "Media Engineering & Technology",
+    "semester": "Spring",
+    "year": 3,
+    "description": "Principles and practice of user-centered design, usability evaluation, and interactive system development.",
+    "instructorIds": ["user-8"],
+    "createdAt": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": "course-6",
+    "code": "CSEN 501",
+    "name": "Database I",
+    "department": "Computer Science & Engineering",
+    "semester": "Fall",
+    "year": 3,
+    "description": "Relational model, SQL, entity-relationship diagrams, normalisation, and transaction management.",
+    "instructorIds": [],
+    "createdAt": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": "course-7",
+    "code": "CSEN 503",
+    "name": "Systems & Networks Programming",
+    "department": "Computer Science & Engineering",
+    "semester": "Fall",
+    "year": 3,
+    "description": "Socket programming, concurrent processes, OS system calls, and network protocol implementation in C.",
+    "instructorIds": [],
+    "createdAt": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": "course-8",
+    "code": "CSEN 601",
+    "name": "Software Engineering",
+    "department": "Computer Science & Engineering",
+    "semester": "Spring",
+    "year": 4,
+    "description": "Agile and waterfall methodologies, requirements engineering, UML modelling, and quality assurance practices.",
+    "instructorIds": ["user-7"],
+    "createdAt": "2024-01-15T08:00:00Z"
+  }
+]

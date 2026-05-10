@@ -1,0 +1,29 @@
+[
+  {
+    "id": "clr-1",
+    "type": "link",
+    "instructorId": "user-8",
+    "courseId": "course-8",
+    "reason": "I am co-teaching the Software Engineering course this semester and would like to be added as an instructor.",
+    "status": "pending",
+    "createdAt": "2026-04-29T10:00:00Z"
+  },
+  {
+    "id": "clr-2",
+    "type": "link",
+    "instructorId": "user-7",
+    "courseId": "course-3",
+    "reason": "Taking over the Microprocessors course starting next semester.",
+    "status": "pending",
+    "createdAt": "2026-04-30T09:00:00Z"
+  },
+  {
+    "id": "clr-3",
+    "type": "unlink",
+    "instructorId": "user-7",
+    "courseId": "course-1",
+    "reason": "I will be on sabbatical and will not teach the Programming Lab course this year.",
+    "status": "pending",
+    "createdAt": "2026-04-30T09:30:00Z"
+  }
+]

@@ -1,0 +1,60 @@
+/*
+ * colors.css — CSS Custom Property (variable) definitions for the dark theme.
+ *
+ * THEME: "Modern German Engineering" palette
+ *   CORE BASE          #121212
+ *   SURFACE / CARDS    #2A2A2A
+ *   PRIMARY ACTION     #FFCC00  (engineering yellow)
+ *   SECONDARY / STATUS #DA291C  (signal red)
+ *   TYPOGRAPHY         #F5F5F5  (crisp off-white)
+ *
+ * PURPOSE:
+ *   Even though Tailwind handles most colours via utility classes, defining
+ *   CSS variables here gives us a fallback layer that non-Tailwind code
+ *   (third-party embeds, <canvas> elements, inline styles) can reference.
+ *
+ * HOW IT WORKS:
+ *   CSS custom properties are declared inside :root (the <html> element).
+ *   They can then be consumed anywhere with var(--color-name).
+ *   The values mirror the palette defined in tailwind.config.js so both
+ *   systems stay in sync.
+ */
+
+:root {
+  /* ── Surfaces (backgrounds, cards, inputs) ─────────────────────────── */
+  --color-surface-950: #0a0a0a;
+  --color-surface-900: #121212;  /* CORE BASE */
+  --color-surface-800: #1c1c1c;
+  --color-surface-700: #2a2a2a;  /* SURFACE / CARDS */
+  --color-surface-600: #3a3a3a;
+  --color-surface-500: #4a4a4a;
+
+  /* ── Brand (PRIMARY ACTION — engineering yellow) ───────────────────── */
+  --color-brand-300: #ffe04d;
+  --color-brand-400: #ffd633;
+  --color-brand-500: #ffcc00;
+  --color-brand-600: #e6b800;
+  --color-brand-700: #b38f00;
+
+  /* ── Accent (SECONDARY / STATUS — signal red) ─────────────────────── */
+  --color-accent-300: #f1857c;
+  --color-accent-400: #e75649;
+  --color-accent-500: #da291c;
+  --color-accent-600: #b72216;
+  --color-accent-700: #8e1a11;
+
+  /* ── Semantic colours ──────────────────────────────────────────────── */
+  --color-success: #16a34a;
+  --color-warning: #ffcc00;        /* shares the brand yellow */
+  --color-error:   #da291c;        /* shares the accent red */
+  --color-info:    #f5f5f5;
+
+  /* ── Typography (crisp #F5F5F5 base) ───────────────────────────────── */
+  --color-text-primary:   #f5f5f5;
+  --color-text-secondary: #b3b3b3;
+  --color-text-muted:     #7a7a7a;
+
+  /* ── Borders ───────────────────────────────────────────────────────── */
+  --color-border:        #2a2a2a;  /* surface-700 */
+  --color-border-subtle: #1c1c1c;  /* surface-800 */
+}

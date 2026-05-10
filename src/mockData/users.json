@@ -1,0 +1,649 @@
+[
+  {
+    "id": "user-1",
+    "role": "student",
+    "name": "Youssef El-Masry",
+    "firstName": "Youssef",
+    "lastName": "El-Masry",
+    "email": "youssef.elmasry@student.guc.edu.eg",
+    "password": "password123",
+    "gucId": "46-12345",
+    "department": "Computer Science & Engineering",
+    "major": "Computer Science",
+    "year": 4,
+    "bio": "Passionate full-stack developer with a focus on building scalable web applications. Currently working on my bachelor thesis in AI-assisted code review.",
+    "skills": [
+      "React",
+      "Node.js",
+      "Python",
+      "Docker",
+      "PostgreSQL",
+      "Machine Learning"
+    ],
+    "github": "https://github.com/youssef-elmasry",
+    "linkedin": "https://linkedin.com/in/youssef-elmasry",
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=youssef",
+    "thesisTitle": "AI-Assisted Code Review Using Large Language Models",
+    "createdAt": "2024-09-01T08:00:00Z",
+    "isActive": true,
+    "savedProjects": [
+      "proj-4",
+      "proj-6"
+    ],
+    "savedPortfolios": [
+      "user-3",
+      "user-5"
+    ],
+    "portfolioVisibleProjectIds": [
+      "proj-1",
+      "proj-5"
+    ],
+    "completedInternships": [
+      {
+        "id": "ci-1",
+        "internshipId": "intern-3",
+        "companyName": "Instabug",
+        "title": "Backend Engineering Intern",
+        "startDate": "2024-06-01",
+        "endDate": "2024-08-31"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "notif-1",
+        "type": "feedback",
+        "message": "Dr. Mona Hassan left feedback on your project 'AI-Assisted Code Review System'.",
+        "read": false,
+        "createdAt": "2025-04-28T10:30:00Z",
+        "link": "/projects/proj-1"
+      },
+      {
+        "id": "notif-2",
+        "type": "invitation",
+        "message": "Karim Mostafa invited you to collaborate on 'Procedural Terrain Generation Engine'.",
+        "read": false,
+        "createdAt": "2025-04-29T15:00:00Z",
+        "link": "/invitations"
+      },
+      {
+        "id": "notif-3",
+        "type": "review",
+        "message": "Your project 'AI Code Reviewer' was approved for showcase.",
+        "read": true,
+        "createdAt": "2025-04-25T09:00:00Z",
+        "link": "/projects/proj-1"
+      }
+    ],
+    "notificationsEnabled": true
+  },
+  {
+    "id": "user-2",
+    "role": "student",
+    "name": "Nour Samir",
+    "firstName": "Nour",
+    "lastName": "Samir",
+    "email": "nour.samir@student.guc.edu.eg",
+    "password": "password123",
+    "gucId": "46-12401",
+    "department": "Media Engineering & Technology",
+    "major": "Media Engineering",
+    "year": 3,
+    "bio": "UI/UX designer and front-end developer. I love creating intuitive digital experiences that make people's lives easier. Working on mobile-first applications.",
+    "skills": [
+      "Figma",
+      "React",
+      "Flutter",
+      "UI/UX Design",
+      "Adobe XD",
+      "TypeScript"
+    ],
+    "github": "https://github.com/nour-samir",
+    "linkedin": "https://linkedin.com/in/nour-samir",
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=nour",
+    "thesisTitle": null,
+    "createdAt": "2024-09-01T08:00:00Z",
+    "isActive": true,
+    "savedProjects": [
+      "proj-3"
+    ],
+    "savedPortfolios": [],
+    "portfolioVisibleProjectIds": [
+      "proj-2",
+      "proj-3"
+    ],
+    "completedInternships": [],
+    "notifications": [
+      {
+        "id": "notif-4",
+        "type": "feedback",
+        "message": "Dr. Amr Talaat reviewed your project 'Interactive Campus Map'.",
+        "read": false,
+        "createdAt": "2025-04-29T11:00:00Z",
+        "link": "/projects/proj-3"
+      }
+    ],
+    "notificationsEnabled": true
+  },
+  {
+    "id": "user-3",
+    "role": "student",
+    "name": "Omar Khalil",
+    "firstName": "Omar",
+    "lastName": "Khalil",
+    "email": "omar.khalil@student.guc.edu.eg",
+    "password": "password123",
+    "gucId": "46-11998",
+    "department": "Computer Science & Engineering",
+    "major": "Computer Science",
+    "year": 5,
+    "bio": "Backend engineer specialising in distributed systems and cloud infrastructure. Thesis on optimising microservice communication using gRPC.",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Kubernetes",
+      "AWS",
+      "gRPC",
+      "Redis"
+    ],
+    "github": "https://github.com/omar-khalil",
+    "linkedin": "https://linkedin.com/in/omar-khalil",
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=omar",
+    "thesisTitle": "Optimising Microservice Communication with gRPC and Service Meshes",
+    "createdAt": "2023-09-01T08:00:00Z",
+    "isActive": true,
+    "savedProjects": [],
+    "savedPortfolios": [],
+    "portfolioVisibleProjectIds": [
+      "proj-5",
+      "proj-8"
+    ],
+    "completedInternships": [],
+    "notifications": [],
+    "notificationsEnabled": true
+  },
+  {
+    "id": "user-4",
+    "role": "student",
+    "name": "Laila Adel",
+    "firstName": "Laila",
+    "lastName": "Adel",
+    "email": "laila.adel@student.guc.edu.eg",
+    "password": "password123",
+    "gucId": "47-20134",
+    "department": "Computer Science & Engineering",
+    "major": "Computer Science",
+    "year": 3,
+    "bio": "Data science enthusiast with a passion for NLP and computer vision. Building a thesis on Arabic sentiment analysis.",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "NLP",
+      "Computer Vision",
+      "Pandas"
+    ],
+    "github": "https://github.com/laila-adel",
+    "linkedin": "https://linkedin.com/in/laila-adel",
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=laila",
+    "thesisTitle": null,
+    "createdAt": "2024-09-01T08:00:00Z",
+    "isActive": true,
+    "savedProjects": [],
+    "savedPortfolios": [],
+    "portfolioVisibleProjectIds": [
+      "proj-2",
+      "proj-4"
+    ],
+    "completedInternships": [],
+    "notifications": [],
+    "notificationsEnabled": true
+  },
+  {
+    "id": "user-5",
+    "role": "student",
+    "name": "Karim Mostafa",
+    "firstName": "Karim",
+    "lastName": "Mostafa",
+    "email": "karim.mostafa@student.guc.edu.eg",
+    "password": "password123",
+    "gucId": "47-20278",
+    "department": "Media Engineering & Technology",
+    "major": "Digital Media Engineering",
+    "year": 4,
+    "bio": "Game developer and graphics programmer. Creating immersive experiences with Unity and WebGL. Senior thesis on procedural terrain generation.",
+    "skills": [
+      "Unity",
+      "C#",
+      "WebGL",
+      "Three.js",
+      "Blender",
+      "Shader Programming"
+    ],
+    "github": "https://github.com/karim-mostafa",
+    "linkedin": "https://linkedin.com/in/karim-mostafa",
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=karim",
+    "thesisTitle": "Real-Time Procedural Terrain Generation for Open-World Games",
+    "createdAt": "2024-09-01T08:00:00Z",
+    "isActive": true,
+    "savedProjects": [],
+    "savedPortfolios": [],
+    "portfolioVisibleProjectIds": [
+      "proj-3",
+      "proj-6"
+    ],
+    "completedInternships": [],
+    "notifications": [],
+    "notificationsEnabled": true
+  },
+  {
+    "id": "user-6",
+    "role": "student",
+    "name": "Salma Ibrahim",
+    "firstName": "Salma",
+    "lastName": "Ibrahim",
+    "email": "salma.ibrahim@student.guc.edu.eg",
+    "password": "password123",
+    "gucId": "48-30012",
+    "department": "Computer Science & Engineering",
+    "major": "Computer Science",
+    "year": 2,
+    "bio": "Second-year student exploring web development and cybersecurity. Working on my first team project for the Programming Lab course.",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Python",
+      "Git"
+    ],
+    "github": "https://github.com/salma-ibrahim",
+    "linkedin": "https://linkedin.com/in/salma-ibrahim",
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=salma",
+    "thesisTitle": null,
+    "createdAt": "2025-02-01T08:00:00Z",
+    "isActive": true,
+    "savedProjects": [],
+    "savedPortfolios": [],
+    "portfolioVisibleProjectIds": [
+      "proj-7",
+      "proj-8"
+    ],
+    "completedInternships": [],
+    "notifications": [
+      {
+        "id": "notif-5",
+        "type": "invitation",
+        "message": "Omar Khalil invited you to collaborate on 'Distributed Key-Value Store'.",
+        "read": false,
+        "createdAt": "2025-04-25T10:00:00Z",
+        "link": "/invitations"
+      }
+    ],
+    "notificationsEnabled": true
+  },
+  {
+    "id": "user-7",
+    "role": "faculty",
+    "name": "Dr. Mona Hassan",
+    "firstName": "Mona",
+    "lastName": "Hassan",
+    "email": "mona.hassan@guc.edu.eg",
+    "password": "password123",
+    "department": "Computer Science & Engineering",
+    "title": "Associate Professor",
+    "bio": "Specialises in machine learning, NLP, and software engineering education. Supervises bachelor theses in AI and data science.",
+    "researchInterests": [
+      "Machine Learning",
+      "Natural Language Processing",
+      "Software Engineering Education",
+      "Code Quality",
+      "AI in Education"
+    ],
+    "educationBackground": [
+      {
+        "id": "edu-7-1",
+        "degree": "Ph.D. in Computer Science",
+        "institution": "Stanford University",
+        "year": 2010
+      },
+      {
+        "id": "edu-7-2",
+        "degree": "M.Sc. in Computer Science",
+        "institution": "American University in Cairo",
+        "year": 2005
+      },
+      {
+        "id": "edu-7-3",
+        "degree": "B.Sc. in Computer Engineering",
+        "institution": "GUC",
+        "year": 2003
+      }
+    ],
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=mona",
+    "supervisedProjects": [
+      "proj-1",
+      "proj-4"
+    ],
+    "createdAt": "2019-01-01T08:00:00Z",
+    "isActive": true,
+    "notificationsEnabled": true,
+    "savedProjects": [],
+    "savedPortfolios": [],
+    "notifications": [
+      {
+        "id": "notif-7-1",
+        "type": "invitation",
+        "message": "Salma Ibrahim invited you to supervise 'GUC Course Registration Portal'.",
+        "read": false,
+        "createdAt": "2026-05-01T13:20:00Z",
+        "link": "/invitations"
+      },
+      {
+        "id": "notif-7-2",
+        "type": "message",
+        "message": "You have a new private message from Youssef El-Masry.",
+        "read": false,
+        "createdAt": "2026-05-01T14:10:00Z",
+        "link": "/messages?with=user-1"
+      },
+      {
+        "id": "notif-7-3",
+        "type": "link-request",
+        "message": "Your request to link with CSEN 704 was approved.",
+        "read": true,
+        "createdAt": "2026-04-30T09:00:00Z",
+        "link": "/dashboard"
+      }
+    ]
+  },
+  {
+    "id": "user-8",
+    "role": "faculty",
+    "name": "Dr. Amr Talaat",
+    "firstName": "Amr",
+    "lastName": "Talaat",
+    "email": "amr.talaat@guc.edu.eg",
+    "password": "password123",
+    "department": "Media Engineering & Technology",
+    "title": "Professor",
+    "bio": "Expert in human-computer interaction, interactive media systems, and educational technology. Chair of the MET undergraduate committee.",
+    "researchInterests": [
+      "Human-Computer Interaction",
+      "Interactive Media",
+      "Educational Technology",
+      "User Experience",
+      "Accessibility"
+    ],
+    "educationBackground": [
+      {
+        "id": "edu-8-1",
+        "degree": "Ph.D. in Human-Computer Interaction",
+        "institution": "Carnegie Mellon University",
+        "year": 2003
+      },
+      {
+        "id": "edu-8-2",
+        "degree": "M.Sc. in Computer Science",
+        "institution": "Cairo University",
+        "year": 1998
+      }
+    ],
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=amr",
+    "supervisedProjects": [
+      "proj-3"
+    ],
+    "createdAt": "2015-01-01T08:00:00Z",
+    "isActive": true,
+    "notificationsEnabled": true,
+    "savedProjects": [],
+    "savedPortfolios": [],
+    "notifications": []
+  },
+  {
+    "id": "user-14",
+    "role": "faculty",
+    "name": "Dr. Yasmine Saad",
+    "firstName": "Yasmine",
+    "lastName": "Saad",
+    "email": "yasmine.saad@guc.edu.eg",
+    "password": "password123",
+    "department": "Computer Science & Engineering",
+    "title": "Assistant Professor",
+    "bio": "Researcher in distributed systems, databases, and cloud computing. Joined GUC in 2022 after a postdoc at ETH Zurich.",
+    "researchInterests": [
+      "Distributed Systems",
+      "Databases",
+      "Cloud Computing",
+      "Stream Processing"
+    ],
+    "educationBackground": [
+      {
+        "id": "edu-14-1",
+        "degree": "Ph.D. in Computer Science",
+        "institution": "ETH Zurich",
+        "year": 2020
+      },
+      {
+        "id": "edu-14-2",
+        "degree": "M.Sc. in Computer Science",
+        "institution": "GUC",
+        "year": 2015
+      },
+      {
+        "id": "edu-14-3",
+        "degree": "B.Sc. in Computer Science",
+        "institution": "GUC",
+        "year": 2013
+      }
+    ],
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=yasmine",
+    "supervisedProjects": [],
+    "createdAt": "2022-09-01T08:00:00Z",
+    "isActive": true,
+    "notificationsEnabled": true,
+    "savedProjects": [],
+    "savedPortfolios": [],
+    "notifications": []
+  },
+  {
+    "id": "user-9",
+    "role": "recruiter",
+    "name": "Sara Fahmy",
+    "firstName": "Sara",
+    "lastName": "Fahmy",
+    "email": "sara.fahmy@valeo.com",
+    "password": "password123",
+    "company": "Valeo Egypt",
+    "companyAddress": "Smart Village, Building B-122, 6th of October, Egypt",
+    "companyPhone": "+20 2 3539 8000",
+    "companyBio": "Valeo is a global automotive supplier with a major R&D centre in Egypt focused on advanced driver-assistance systems (ADAS) and autonomous driving.",
+    "jobTitle": "Senior Technical Recruiter",
+    "bio": "Sourcing top engineering talent for Valeo's R&D centre in Cairo. Looking for graduates with strong C++, embedded systems, and AI skills.",
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=sara",
+    "applicationStatus": "accepted",
+    "companyDocs": [
+      {
+        "id": "doc-9-1",
+        "fileName": "Valeo_Tax_Certificate_2025.pdf",
+        "size": 1820000,
+        "uploadedAt": "2024-05-20T10:00:00Z"
+      },
+      {
+        "id": "doc-9-2",
+        "fileName": "Valeo_Commercial_Registration.pdf",
+        "size": 980000,
+        "uploadedAt": "2024-05-20T10:05:00Z"
+      }
+    ],
+    "isActive": true,
+    "savedProjects": [
+      "proj-1",
+      "proj-4"
+    ],
+    "savedPortfolios": [
+      "user-1",
+      "user-3"
+    ],
+    "createdAt": "2024-06-01T08:00:00Z",
+    "notifications": [],
+    "notificationsEnabled": true
+  },
+  {
+    "id": "user-10",
+    "role": "recruiter",
+    "name": "Ahmed Zaki",
+    "firstName": "Ahmed",
+    "lastName": "Zaki",
+    "email": "ahmed.zaki@instabug.com",
+    "password": "password123",
+    "company": "Instabug",
+    "companyAddress": "Plaza Park, Sheikh Zayed, Egypt",
+    "companyPhone": "+20 2 3850 1100",
+    "companyBio": "Instabug provides bug reporting and crash reporting tools used by thousands of mobile apps worldwide.",
+    "jobTitle": "Engineering Talent Acquisition",
+    "bio": "Building the engineering team at Instabug. Interested in mobile developers, backend engineers, and sharp problem solvers.",
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=ahmed",
+    "applicationStatus": "accepted",
+    "companyDocs": [
+      {
+        "id": "doc-10-1",
+        "fileName": "Instabug_Tax_Certificate.pdf",
+        "size": 1450000,
+        "uploadedAt": "2024-07-25T10:00:00Z"
+      },
+      {
+        "id": "doc-10-2",
+        "fileName": "Instabug_Company_License.pdf",
+        "size": 1120000,
+        "uploadedAt": "2024-07-25T10:02:00Z"
+      }
+    ],
+    "isActive": true,
+    "savedProjects": [],
+    "savedPortfolios": [
+      "user-2",
+      "user-5"
+    ],
+    "createdAt": "2024-08-01T08:00:00Z",
+    "notifications": [],
+    "notificationsEnabled": true
+  },
+  {
+    "id": "user-11",
+    "role": "recruiter",
+    "name": "Mariam Hosny",
+    "firstName": "Mariam",
+    "lastName": "Hosny",
+    "email": "mariam.hosny@swvl.com",
+    "password": "password123",
+    "company": "Swvl",
+    "companyAddress": "Maadi Star Towers, Cairo, Egypt",
+    "companyPhone": "+20 2 2520 1212",
+    "companyBio": "Swvl is a global mobility provider headquartered in Dubai with strong engineering presence in Cairo.",
+    "jobTitle": "Head of People Operations",
+    "bio": "Hiring across software engineering, data, and product roles for our Cairo office.",
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=mariam",
+    "applicationStatus": "pending",
+    "companyDocs": [
+      {
+        "id": "doc-11-1",
+        "fileName": "Swvl_Tax_Certificate_2025.pdf",
+        "size": 2150000,
+        "uploadedAt": "2026-04-25T11:00:00Z"
+      },
+      {
+        "id": "doc-11-2",
+        "fileName": "Swvl_Trade_License.pdf",
+        "size": 1840000,
+        "uploadedAt": "2026-04-25T11:05:00Z"
+      }
+    ],
+    "isActive": true,
+    "savedProjects": [],
+    "savedPortfolios": [],
+    "createdAt": "2026-04-25T11:00:00Z",
+    "notifications": [],
+    "notificationsEnabled": true
+  },
+  {
+    "id": "user-12",
+    "role": "recruiter",
+    "name": "Tarek Mansour",
+    "firstName": "Tarek",
+    "lastName": "Mansour",
+    "email": "tarek.mansour@halan.com",
+    "password": "password123",
+    "company": "Halan",
+    "companyAddress": "New Administrative Capital, Egypt",
+    "companyPhone": "+20 2 2666 7777",
+    "companyBio": "Halan is a fintech super-app for ride-hailing, payments, and lending serving millions across Egypt.",
+    "jobTitle": "Engineering Recruitment Lead",
+    "bio": "Hiring backend, mobile, and data engineers to scale our fintech platform.",
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=tarek",
+    "applicationStatus": "pending",
+    "companyDocs": [
+      {
+        "id": "doc-12-1",
+        "fileName": "Halan_Tax_Certificate.pdf",
+        "size": 1980000,
+        "uploadedAt": "2026-04-28T09:00:00Z"
+      }
+    ],
+    "isActive": true,
+    "savedProjects": [],
+    "savedPortfolios": [],
+    "createdAt": "2026-04-28T09:00:00Z",
+    "notifications": [],
+    "notificationsEnabled": true
+  },
+  {
+    "id": "user-13",
+    "role": "admin",
+    "name": "Hala El-Sherif",
+    "firstName": "Hala",
+    "lastName": "El-Sherif",
+    "email": "admin@guc.edu.eg",
+    "password": "password123",
+    "department": "Platform Administration",
+    "title": "Platform Administrator",
+    "bio": "Initial platform administrator. Manages user accounts, employer applications, courses, and content moderation.",
+    "profilePic": "https://api.dicebear.com/7.x/avataaars/svg?seed=admin",
+    "createdAt": "2024-01-01T08:00:00Z",
+    "isActive": true,
+    "isInitialAdmin": true,
+    "notifications": [
+      {
+        "id": "notif-a1",
+        "type": "employer-application",
+        "message": "Swvl has submitted an application to join the platform.",
+        "read": false,
+        "createdAt": "2026-04-25T11:00:00Z",
+        "link": "/admin/employers"
+      },
+      {
+        "id": "notif-a2",
+        "type": "employer-application",
+        "message": "Halan has submitted an application to join the platform.",
+        "read": false,
+        "createdAt": "2026-04-28T09:00:00Z",
+        "link": "/admin/employers"
+      },
+      {
+        "id": "notif-a3",
+        "type": "link-request",
+        "message": "Dr. Amr Talaat requested to link to the course CSEN 601.",
+        "read": false,
+        "createdAt": "2026-04-29T10:00:00Z",
+        "link": "/admin/courses"
+      },
+      {
+        "id": "notif-a4",
+        "type": "appeal",
+        "message": "A new appeal has been submitted against a flagged project.",
+        "read": true,
+        "createdAt": "2026-04-22T15:00:00Z",
+        "link": "/admin/flags"
+      }
+    ],
+    "notificationsEnabled": true
+  }
+]
